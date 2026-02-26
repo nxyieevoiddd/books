@@ -13,6 +13,7 @@
     <h2> {{ $book->author }}</h2>
     <h2> {{ $book->release_at }}</h2>
     <h2> {{ $book->description }}</h2>
+    <a href="/books/{{ $books->id }}">show</a>
     @endforeach
 
 </body>
