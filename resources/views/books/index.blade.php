@@ -8,12 +8,12 @@
 <body>
     <h1>All posts</h1>
 
-    @foreach ($allbooks as $book)
+    @foreach ($allBooks as $book)
     <h2> {{ $book->title }}</h2>
     <h2> {{ $book->author }}</h2>
     <h2> {{ $book->release_at }}</h2>
     <h2> {{ $book->description }}</h2>
     @endforeach
-    
+
 </body>
 </html>
