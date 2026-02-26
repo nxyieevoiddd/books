@@ -26,6 +26,10 @@ class BookController extends Controller
 
     public function index()
     {
-        return view('books.index',[]);
+        return view('books.index',['allBooks'=> $books]);
     } 
+    public function show($id)
+    {
+        return Book::find($id);
+    }
 }
