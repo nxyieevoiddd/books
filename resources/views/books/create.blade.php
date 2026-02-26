@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>form</h1>
+    <h1>Books</h1>
     <form action="/books" method="post" >
         @csrf
         <div >
